@@ -15,7 +15,7 @@
     "season": "2021|.305|83|176|5|43|10|.368|.411",
     "career": ".281|313|622|40|215|30|.344|.412",
     "best": "Steady and solid fielding and numbers somewhere around his career numbers in batting average and OPS. The Mariners would certainly like a repeat of what he did for the Pittsburgh Pirates last season before being traded to San Diego. In 386 at-bats with Pittsburgh last year, he hit .324 and had an OPS of .836. That start earned Frazier a selection on the National League All-Star team.",
-    "worst": "Starred in college at Mississippi State, where he was a two-time selection to the Southeastern Conference Academic Honor Roll.",
+    "worst": "Frazier starred in college at Mississippi State, where he was a two-time selection to the Southeastern Conference Academic Honor Roll.",
     "credit": "Dean Rutz",
     "publication": "The Seattle Times"
   },
@@ -94,8 +94,8 @@
     "arm": "Bats",
     "season": "2021|.198|71|100|31|79|0|.286|.428",
     "career": ".252|506|887|193|547|28|.334|.466",
-    "best": "The power he has showed throughout his career, with a batting average much closer to the numbers he had in 2018 and 2019 than what it was the past two seasons. Suarez hit .283 and .271 in 2018 and 2019, respectively, for the Cincinnati Reds while hitting 34 and 49 home runs. During the 2020 shortened season, he hit .202 with 15 homers and last season it was .198 with 31 homers. Which version of Suarez are the Mariners getting. If he’s his old self, the team will have found a great replacement for Kyle Seager.",
-    "worst": "Suarez’s 49 home runs in 2019 tied him with Ted Kluszewski (1954) for second-most in a season for the Cincinnati Reds. George Foster has the Reds record with 52 in 1977.",
+    "best": "The power he has showed throughout his career, with a batting average much closer to the numbers he had in 2018 and 2019 than what it was the past two seasons. Suarez hit .283 and .271 in 2018 and 2019, respectively, for the Cincinnati Reds while hitting 34 and 49 home runs. During the 2020 shortened season, he hit .202 with 15 homers and last season hit .198 with 31 homers. Which version of Suarez are the Mariners getting? If he’s his old self, the team will have found a great replacement for Kyle Seager.",
+    "worst": "Suarez’s 49 home runs in 2019 tied him with Ted Kluszewski (1954) for second-most in a season for the Cincinnati Reds. George Foster holds the Reds record with 52 in 1977.",
     "credit": "Dean Rutz",
     "publication": "The Seattle Times"
   },
@@ -115,7 +115,7 @@
     "season": "2021|.181|41|61|14|43|6|.265|.350",
     "career": ".181|41|61|14|43|6|.265|.350",
     "best": "Significant improvement from his rookie season. The Mariners have to like that Kelenic had by far his best month last season in September, when he had an OPS of .858. There should be less spotlight on Kelenic this year – which should be a good thing -- after he was called up amid great fanfare in May, then struggled so poorly in his first month that he had to be sent back to Class AAA Tacoma.",
-    "worst": "Played for the U-18 Team USA baseball team that won the 2016 and 2017 World Cups. … Born in Waukesha, which is also the hometown of Washington State football coach Jake Dickert.",
+    "worst": "Played for the U-18 Team USA baseball team that won the 2016 and 2017 World Cups. … Born in Waukesha, Wisconsin, which is also the hometown of Washington State football coach Jake Dickert.",
     "credit": "Dean Rutz",
     "publication": "The Seattle Times"
   },
@@ -135,9 +135,10 @@
     "season": "2021|.347|64|101|13|47|21|.441|.560",
     "career": ".331|177|277|30|162|32|.412|.543",
     "best": "For the 21-year-old phenom, one of several players likely to see time at DH, to play well enough that no one questions why he started the season in Seattle and not in the minor leagues. No matter how good Rodriguez becomes, it is likely that he will have some early growing pains as teams adjust to what he is doing. No matter how he does, it will be one of the biggest story lines of the season for the Mariners.",
-    "worst": "Born in Loma Del Cabrera in the Dominican Republic. It has a population of about 20,000 and was also the birthplace of longtime Atlanta Braves shortstop Rafael Furcal. … Received a $1.75 million signing bonus at age 16 as an international free agent.",
+    "worst": "Born in Loma de Cabrera in the Dominican Republic. It has a population of about 20,000 and was also the birthplace of longtime Atlanta Braves shortstop Rafael Furcal. … Received a $1.75 million signing bonus at age 16 as an international free agent.",
     "credit": "Dean Rutz",
-    "publication": "The Seattle Times"
+    "publication": "The Seattle Times",
+    "note": "*Minor league stats"
   },
   {
     "order": 8,
@@ -188,7 +189,7 @@
     "card": "Ray",
     "position": "SP",
     "age": 30,
-    "bats": "Throws Left",
+    "bats": "Left",
     "height": "6-2",
     "weight": 225,
     "arm": "Throws",

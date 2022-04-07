@@ -2,21 +2,21 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "comic-validity"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2022/sports/meet-the-seattle-mariners-lineup"
     }
   },
-  "title": "",
-  "description": "",
-  "author": "",
-  "url": "",
-  "post_id": 0,
+  "title": "Get to know the 2022 Mariners",
+  "description": "Learn their strengths, stats and what to look forward to this year",
+  "author": "Scott Hanson",
+  "url": "https://projects.seattletimes.com/2022/sports/meet-the-seattle-mariners-lineup/",
+  "post_id": 14820054,
   "image": "assets/social.jpg",
   "sheets": ["1WkuG-lW7j-Kx7iXlM1xormbR_tGjipV9vRxjt_Xez6U"],
   "docs": [],
   "embedded": false,
-  "production": false
+  "production": true
 }

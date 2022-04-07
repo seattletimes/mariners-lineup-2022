@@ -11,6 +11,7 @@
       <%= t.include("partials/_gtm.html") %>
     <% } %>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:600,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -46,12 +47,12 @@
           <h1>Meet the 2022 Mariners starting lineup</h1>
 
           <p>
-            The Sounders have reached the playoffs for an MLS-record 13 straight seasons, finishing two of the last six with championships. So Seattle is no stranger to lofty expectations. But this season, with returning stars in place, the emergence of young contributors and the addition of even more talent via free agency, expectations might be higher than ever before. Here's a look at the team's projected starting XI and what to expect from each player in 2022.
+          The Mariners have not made the playoffs since the record-breaking 2001 season. After finishing two games short last year, Seattle made a splash in the offseason, acquiring Robbie Ray as a free agent and trading for Adam Frazier, Eugenio Suarez and Jesse Winker. With Julio Rodriguez's promotion to the opening day roster, the excitement around this team is palpable. Here's a look at the projected 2022 opening day lineup.
           </p>
 
           <p class="byline">
-            <span class="byline-name">By <a href="https://www.seattletimes.com/author/jayda-evans/" target="_blank" rel="nofollow noreferrer noopener">Jayda Evans</a></span><br>
-            <span class="byline-name">Published Feb. 25, 2022</span>
+            <span class="byline-name">By <a href="https://www.seattletimes.com/author/scott-hanson/" target="_blank" rel="nofollow noreferrer noopener">Scott Hanson</a></span><br>
+            <span class="byline-name">Published April 7, 2022</span>
 
           </p>
 
@@ -107,15 +108,15 @@
 
 
               <tr>
-                <td>Career</td>
+                <% var asterisk = player.card === "Rodriguez" ? "*" : "" %>
+                <td>Career<%= asterisk %></td>
                 <% player.career.split("|").forEach(function(stat) { %>
                   <td><%= stat %></td>
                 <% }); %>
               </tr>
             </table>
-
             <div class="credit">
-                <% var notes = player.name == "Taylor Trammell" ? ["* Minor-league stats"] : [""];
+                <% var notes = player.card == "Rodriguez" ? ["* Minor-league stats"] : [""];
                 notes.forEach(function(note) { %>
                   <%= note %></br>
                 <% }); %>

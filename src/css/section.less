@@ -133,6 +133,8 @@
     .copy {
       padding: 0 20px;
       letter-spacing: .3px;
+
+      h2 { color: white; }
     }
 
     h2 {
@@ -153,7 +155,7 @@
       font-size: 11px;
       color: @seaGray;
       text-align: right;
-      padding: 10px 20px 10px 20px;
+      padding: 0px 20px 10px 20px;
     }
 
     &.right {
@@ -171,15 +173,22 @@
   .transform-origin(50% 50%);
   .transform(perspective(1000px) rotateY(180deg));
 
-  .pointer.flip &, .mouse,.description:hover, .description.flip & {
-    .transform(perspective(1000px) rotateY(0deg));
+  @media @desktop-up {
+    .pointer.flip &, .mouse,.description:hover  & {
+      .transform(perspective(1000px) rotateY(0deg));
+    }
   }
 
-  @media @mobile {
+
+
+  @media @tablet {
     // .transform(perspective(1000px) rotateY(180deg));
     // .flip & {
     //   .transform(perspective(1000px) rotateY(0deg));
     // }
+    .description.flip & {
+      .transform(perspective(1000px) rotateY(0deg));
+    }
   }
 }
 
@@ -211,13 +220,20 @@
     letter-spacing: .5px;
   }
 
-  .flip & .mouse,.description:hover, .description.flip & {
-    .transform(perspective(1000px) rotateY(-180deg));
+  @media @desktop-up {
+    .flip & .mouse, .description:hover & {
+      .transform(perspective(1000px) rotateY(-180deg));
+    }
   }
 
-  @media @mobile {
+
+  @media @tablet {
     .right &, .left & {
       .transform(perspective(1000px) rotateY(0deg));
+    }
+
+    .description.flip & {
+      .transform(perspective(1000px) rotateY(-180deg)) !important;
     }
   }
 }
